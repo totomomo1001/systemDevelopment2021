@@ -64,7 +64,7 @@
 	</form>
 	<hr>
 	<h2>データ更新</h2>
-	<form action="/insert" method="post">
+	<form action="/update" method="post">
 		<table>
 			<tr>
 				<td>ID</td>
@@ -76,7 +76,7 @@
 			</tr>
 			<tr>
 				<td>写真</td>
-				<td><input type="text" name="updatePicture" /></td>
+				<td><input type="text" /></td>
 			</tr>
 			<tr>
 				<td></td>
